@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+ body{
+     background-image: url(grid.png);
+     height: 750px;
+     
+ }
+ .fb-header-base{
+     width: 100%;
+     height: 90px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background: #3d5b99;
+     font-family: verdana;
+     z-index: 7;
+     font-family:verdana;
+     color:white;
+     -webkit-box-shadow: 0 3px 8px rgba(0,0,0,.25)
+ } 
+ .fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+    
+	top:0;
+	left:0;
+    
+	font-family: verdana;
+	z-index:7;
+    
+	font-family:verdana;
+ }	
+ #logo{
+     padding-left: 178px;
+     bottom: 20px;
+     color: white;
+     
+ } 
+ #forms-h1{
+     margin: 0px;
+     top:20px;
+     padding-left: 750px;
+     height: 60px;
+     width: 180px;
+     align-items: top;
+     color:white;
+     font-size: 12px;
+     
+ } 
+ #forms-h2{
+     padding-left: 940px;
+     top: 20px;
+     height: 60px;
+     width: 180px;
+     color: white;
+     font-size: 12px;
+     
+
+ }
+ #login{
+     padding-left: 1130px;
+     top: 38px;
+     
+     color:white;
+     position: relative;
+     z-index: 20px;
+      height: 22px;
+     width: 50px;
+     cursor: pointer;
+}
+.body{
+    position: absolute;
+    
+    left: 0px;
+    top: 40px;
+    width: 100%;
+    height: 500px;
+    background:cover;
+    
+}
+#intro1{
+    left: 178px;
+    top: 60px;
+    font-family: verdana;
+    font-size: 20px;
+    color: #142170;
+    height: 75px;
+    width: 550px;
+}
+#intro2{
+    left:750px;
+    padding-top:20px;
+    font-family: verdana;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    height: 75px;
+    width: 500px;
+}
+#intro3{
+    left: 750px;
+    padding-top: 70px;
+    font-family: verdana;
+    font-size: 18px;
+    color: black;
+    height: 50px;
+    width: 300px;
+  }
+#form3{
+ padding-top:120px;
+    left:750px;
+    font-family:verdana;
+    font-size:20px;
+    color: #142170;
+    width: 450px;
+    height: 495px;
+
+
+ }
+ #namebox{
+     width: 200px;
+     height: 40px;
+     border-radius: 5px 5px 5px 5px; 
+     font-size: 18px;
+     margin-top:8px;
+     border-width: 1px;
+     border-style: solid;
+     border-color: gray;
+ }
+#box{
+    width: 408px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    font-size: 18px;
+}
+#r-b{
+    font-size: 12px;
+    height: 15px;
+    width: 15px;
+}
+#intro4{
+    font-family: verdana;
+    font-size: 12px;
+    color: gray;
+    
+}
+.button2{
+    width: 250px;
+    height: 40px;
+    background: green;
+    font-family: verdana;
+    font-size: 18px;
+    color: white;
+    border-radius:5x 5px 5px 5px;
+    border-width:1px;
+    border-style: solid;
+    border-color: gray;
+    cursor: pointer;
+    outline: none;
+
+
+}
+
+#images{
+    padding-top:150px;
+    padding-left:178px;
+    height: 200px;
+    width: 437px;
+
+} 
+</style>
+</head>
+<body>
+<div class="fb-header-base"></div>
+ <div class="fb-header">
+     <div id="logo" class="fb-header">
+         <h1>matiullah</h1>
+     </div>
+     <div id="forms-h1" class="fb-header">Email or phone<br>
+        <input type="text" placeholder="Email or phone"><br>
+        <input type="checkbox">logged in
+     </div>
+     <div id="forms-h2" class="fb-header">Password?<br>
+       <input type="text" placeholder="Password"><br>
+       forget password 
+     </div>
+     <div id="login" class="fb-header">
+         <button type="submit" value="login">login</button>
+     </div>
+
+ </div>
+ <div class="body">
+    <div id="intro1" class="body">facebook helps you contact and share with the<br>
+       people in your life.</div>
+       <img id="images" src="images.jpg" alt="web" >
+    
+    <div id="intro2" class="body">Create an acount</div>
+    <div id="intro3" class="body" >It's free and always will be</div>
+    <div id="form3" class="body">
+        <input id="namebox" type="tex" placeholder="First Name">
+        <input id="namebox" type="text" placeholder="Last Name"><br>
+        <input id="box" type="text" placeholder="Email"><br>
+        <input id="box" type="text" placeholder="Re-enter Email"><br>
+        <input id="box" type="text" placeholder="password"><br>
+        <input id="box" type="date" ><br><br>
+        <input type="radio" id="r-b" name="sex" value="male">male
+        <input type="radio" id="r-b" name="sex"  value="female">female<br><br>
+       <p id="intro4"> By clicking Create an account, you agree to our Terms and that you have read our Data Policy,including our cookies Use.</p>
+       <input type="submit" class="button2"  value="Create a account">
+       <br>
+       
+    </div >
+    
+</div>
+</body>
+</html>
